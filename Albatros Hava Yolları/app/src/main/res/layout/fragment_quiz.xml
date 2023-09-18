@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary60"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.QuizFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:src="@drawable/resim" />
+
+    <TextView
+        android:id="@+id/isim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/soyisim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/telefon"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Telefon Numarası"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/nereden"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="Nereden"/>
+
+    <EditText
+        android:id="@+id/nereye"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="Nereye"/>
+
+    <EditText
+        android:id="@+id/neZaman"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Yolculuk Tarihi"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonBitir"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+        android:text="Çıkış" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_weight="0"
+        android:background="@color/material_dynamic_tertiary60"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+</LinearLayout>
